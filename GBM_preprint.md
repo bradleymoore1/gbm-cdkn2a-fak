@@ -117,7 +117,7 @@ The MUTYH germline observation is the narrowest finding but is biologically cohe
 
 ## 6. Data availability
 
-All primary datasets are public: DepMap CRISPR and RNAi/DEMETER2 (depmap.org), PRISM (depmap.org/repurposing), GDSC release 8.5 (cancerrxgene.org), CPTAC-GBM (cptac Python package / proteomic.datacommons.cancer.gov), TCGA-GBM and MSK-IMPACT (cBioPortal), GWAS Catalog (ebi.ac.uk/gwas), FinnGen R13 (finngen.fi), gnomAD v4 (gnomad.broadinstitute.org), ClinVar. Analysis scripts and derived tables are available from the corresponding author on reasonable request (FinnGen individual-level data excepted, per FinnGen's data-access terms).
+All primary datasets are public: DepMap CRISPR and RNAi/DEMETER2 (depmap.org), PRISM (depmap.org/repurposing), GDSC release 8.5 (cancerrxgene.org), CPTAC-GBM (cptac Python package / proteomic.datacommons.cancer.gov), TCGA-GBM and MSK-IMPACT (cBioPortal), GWAS Catalog (ebi.ac.uk/gwas), FinnGen R13 (finngen.fi), gnomAD v4 (gnomad.broadinstitute.org), ClinVar. Analysis scripts and derived summary tables are available at https://github.com/bradleymoore1/gbm-cdkn2a-fak (FinnGen individual-level data excepted, per FinnGen's data-access terms).
 
 ## 7. Acknowledgments
 
