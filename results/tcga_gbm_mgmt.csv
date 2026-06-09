@@ -1,0 +1,6 @@
+stratum,n,median_os_mo,vs,median_os_other,logrank_p
+MGMT methylated (IDH-wt),127,14.9,MGMT unmethylated,12.7,0.087
+eligible + MGMT-methylated,86,14.9,,,
+eligible + MGMT-unmethyl.,119,12.6,,,
+not-elig + MGMT-methylated,41,15.3,,,
+not-elig + MGMT-unmethyl.,47,13.3,,,

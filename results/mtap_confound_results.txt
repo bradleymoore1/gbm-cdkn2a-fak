@@ -1,0 +1,82 @@
+### CNS-restricted ###
+CNS lines: 90 total
+  grpA CDKN2A/B-null & MTAP-null (co-del): n=50
+  grpB CDKN2A/B-null & MTAP-INTACT       : n=4  <-- key group
+  grpC CDKN2A/B-intact                   : n=36
+  MTAP co-deletion rate among CDKN2A/B-null CNS lines: 50/54 = 93%
+
+=== (1) KEY: FAK dependency in MTAP-INTACT null lines (grpB) vs intact (grpC) ===
+    (negative delta = more essential in null; alt: B<C)
+  PTK2     delta=-0.458  p=0.0558  (nB=4, nC=36)
+  ITGAV    delta=-0.120  p=0.34  (nB=4, nC=36)
+  TLN1     delta=-0.085  p=0.356  (nB=4, nC=36)
+  VCL      delta=-0.185  p=0.141  (nB=4, nC=36)
+  FERMT2   delta=-0.155  p=0.422  (nB=4, nC=36)
+  ITGB5    delta=-0.193  p=0.121  (nB=4, nC=36)
+  ILK      delta=-0.466  p=0.0141  (nB=4, nC=36) *
+
+=== (2) Within null lines: MTAP-null (grpA) vs MTAP-intact (grpB), FAK ===
+    (if ~no difference, FAK tracks CDKN2A/B not MTAP; two-sided)
+  PTK2     delta(A-B)=+0.136  p=0.534  (nA=50, nB=4)
+  ITGAV    delta(A-B)=-0.197  p=0.513  (nA=50, nB=4)
+  TLN1     delta(A-B)=-0.139  p=0.472  (nA=50, nB=4)
+  VCL      delta(A-B)=-0.004  p=0.787  (nA=50, nB=4)
+  FERMT2   delta(A-B)=-0.156  p=0.492  (nA=50, nB=4)
+  ITGB5    delta(A-B)=+0.105  p=0.886  (nA=50, nB=4)
+  ILK      delta(A-B)=+0.225  p=0.238  (nA=50, nB=4)
+
+=== (3) OLS  effect ~ cdkn_null + mtap_null  (which indicator carries FAK?) ===
+  PTK2     cdkn_null b=-0.320 p=0.0942 | mtap_null b=+0.082 p=0.662
+  ITGAV    cdkn_null b=-0.025 p=0.892 | mtap_null b=-0.217 p=0.238
+  TLN1     cdkn_null b=-0.065 p=0.557 | mtap_null b=-0.140 p=0.203
+  VCL      cdkn_null b=-0.053 p=0.643 | mtap_null b=-0.143 p=0.206
+  FERMT2   cdkn_null b=-0.068 p=0.777 | mtap_null b=-0.166 p=0.482
+  ITGB5    cdkn_null b=-0.033 p=0.857 | mtap_null b=-0.200 p=0.269
+  ILK      cdkn_null b=-0.370 p=0.0142 | mtap_null b=+0.156 p=0.289
+
+=== (4) POSITIVE CONTROL: PRMT5/MAT2A should track MTAP, not CDKN2A/B ===
+    MTAP-null (grpA) vs MTAP-intact-but-anything; expect more essential in MTAP-null
+  PRMT5    delta(MTAPnull-int)=-0.097  p=0.0145  (n=51/39) *
+  MAT2A    delta(MTAPnull-int)=+0.005  p=0.603  (n=51/39)
+    OLS for controls (which indicator carries PRMT5/MAT2A):
+  PRMT5    cdkn_null b=-0.241 p=0.105 | mtap_null b=+0.047 p=0.745
+  MAT2A    cdkn_null b=-0.288 p=0.225 | mtap_null b=+0.270 p=0.249
+
+### PAN-CANCER ###
+PAN-CANCER lines: 1178
+  grpA CDKN2A/B-null & MTAP-null : n=324
+  grpB CDKN2A/B-null & MTAP-INTACT: n=30   <-- separating group
+  grpC CDKN2A/B-intact           : n=824
+  MTAP co-deletion among CDKN2A/B-null: 324/354 = 92%
+  phi(cdkn_null, mtap_null) = 0.92  (lower = more separable)
+
+=== (1) KEY: FAK in MTAP-INTACT null (grpB) vs intact (grpC); alt B<C ===
+  PTK2     delta=-0.043  p=0.281  (nB=30,nC=824)
+  ITGAV    delta=-0.100  p=0.127  (nB=30,nC=824)
+  TLN1     delta=-0.059  p=0.0709  (nB=30,nC=824)
+  VCL      delta=-0.018  p=0.434  (nB=30,nC=824)
+  FERMT2   delta=-0.111  p=0.281  (nB=30,nC=824)
+  ITGB5    delta=-0.007  p=0.238  (nB=30,nC=824)
+  ILK      delta=-0.048  p=0.164  (nB=30,nC=824)
+
+=== (2) Within null: MTAP-null (A) vs MTAP-intact (B); two-sided ===
+  PTK2     delta(A-B)=-0.123  p=0.364  (nA=324,nB=30)
+  ITGAV    delta(A-B)=-0.074  p=0.568  (nA=324,nB=30)
+  TLN1     delta(A-B)=-0.077  p=0.517  (nA=324,nB=30)
+  VCL      delta(A-B)=-0.045  p=0.0927  (nA=324,nB=30)
+  FERMT2   delta(A-B)=-0.063  p=0.284  (nA=324,nB=30)
+  ITGB5    delta(A-B)=-0.060  p=0.576  (nA=324,nB=30)
+  ILK      delta(A-B)=-0.018  p=0.975  (nA=324,nB=30)
+
+=== (3) OLS effect ~ cdkn_null + mtap_null (separable now) ===
+  PTK2     cdkn b=-0.048 p=0.43 | mtap b=-0.065 p=0.29
+  ITGAV    cdkn b=-0.080 p=0.27 | mtap b=-0.062 p=0.4
+  TLN1     cdkn b=-0.082 p=0.09 | mtap b=-0.033 p=0.5
+  VCL      cdkn b=+0.006 p=0.85 | mtap b=-0.078 p=0.024 mtap*
+  FERMT2   cdkn b=-0.064 p=0.44 | mtap b=-0.079 p=0.35
+  ITGB5    cdkn b=+0.001 p=0.98 | mtap b=-0.089 p=0.11
+  ILK      cdkn b=-0.014 p=0.79 | mtap b=-0.050 p=0.34
+
+=== (4) POSITIVE CONTROL PRMT5/MAT2A (must load on mtap) ===
+  PRMT5    cdkn b=-0.179 p=0.00035 | mtap b=+0.023 p=0.65
+  MAT2A    cdkn b=-0.048 p=0.51 | mtap b=+0.023 p=0.75

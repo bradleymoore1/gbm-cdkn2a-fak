@@ -1,0 +1,13 @@
+event,gene,alt_type,n_eligible,pct_eligible,n_elig_unmeth,pct_elig_unmeth,mechanism
+CCNE1_amp,CCNE1,amp,1,0.4,0,0.0,CDK2 bypass — most common breast CDK4/6i resistance
+PIK3CA_mut,PIK3CA,mut,25,10.2,12,10.1,PI3K/mTOR escape — second most common
+PIK3R1_mut,PIK3R1,mut,28,11.5,12,10.1,PI3K pathway (PI3K regulatory subunit)
+YAP1_amp,YAP1,amp,0,0.0,0,0.0,Hippo bypass — WWTR1/YAP1 our #3 DepMap hit
+FGFR1_amp,FGFR1,amp,0,0.0,0,0.0,RTK bypass
+FGFR2_amp,FGFR2,amp,0,0.0,0,0.0,RTK bypass
+MYC_amp,MYC,amp,3,1.2,1,0.8,E2F-independent proliferation
+NF1_mut,NF1,mut,24,9.8,9,7.6,RAS/MAPK escape (NF1 loss -> RAS active)
+PTEN_mut,PTEN,mut,84,34.4,39,32.8,PI3K pathway (PTEN loss)
+PTEN_homdel,PTEN,homdel,30,12.3,11,9.2,PI3K pathway (PTEN loss)
+KRAS_mut,KRAS,mut,2,0.8,2,1.7,RAS/MAPK escape
+AKT1_mut,AKT1,mut,2,0.8,1,0.8,AKT activation

@@ -1,0 +1,7 @@
+comparison,n_a,med_a_mo,n_b,med_b_mo,logrank_p
+CDK4/6i-eligible (IDH-wt) vs other IDH-wt,266,21.9,172,23.6,0.8362
+MGMT methylated (IDH-wt) vs MGMT unmethylated,112,42.2,240,19.3,0.0
+elig+methylated,73,,,,
+elig+unmethylated,146,,,,
+other+methylated,39,,,,
+other+unmethylated,94,,,,

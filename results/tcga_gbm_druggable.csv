@@ -1,0 +1,25 @@
+gene,altered_pct,status,n_drugs,n_approved,top_drugs,gbm_note
+CDK4,15.9,LIVE,64,15,"RIBOCICLIB SUCCINATE*, TRILACICLIB DIHYDROCHLORIDE*, RIBOCICLIB*, TRILACICLIB*",CDK4/6 inhibitors (abemaciclib is CNS-penetrant; palbo/ribo). Rational when CDK4/6-amplified AND RB1 intact AND CDKN2A/B deleted. Among the more defensible live shots.
+CCND2,4.5,LIVE,5,4,"DECITABINE*, RIBOCICLIB*, ABEMACICLIB*, PALBOCICLIB*",Cyclin D2 amplification feeds CDK4/6 -- same CDK4/6i rationale (RB1 intact).
+NF1,14.3,SUBSET,23,18,"EVEROLIMUS*, TRAMETINIB DIMETHYL SULFOXIDE*, VEMURAFENIB*, COBIMETINIB*",Loss activates RAS/MEK; MEK inhibitors (selumetinib/trametinib) have a rationale and real activity in NF1-driven low-grade glioma/pNF -- weaker evidence in GBM.
+MDM4,11.6,SUBSET,6,5,"EPIRUBICIN*, ATEZOLIZUMAB*, NIVOLUMAB*, PEMBROLIZUMAB*",Same p53-restoration rationale as MDM2 in TP53-WT tumors; fewer clinical agents.
+MDM2,8.7,SUBSET,26,4,"IPILIMUMAB*, NIVOLUMAB*, PEMBROLIZUMAB*, CISPLATIN*","MDM2 inhibitors (milademetan, navtemadlin/AMG-232) restore p53 -- ONLY rational in TP53-wild-type, MDM2-amplified tumors. Early-phase; CNS exposure a question."
+IDH1,6.1,SUBSET,412,104,"IVOSIDENIB*, OLUTASIDENIB*, VORASIDENIB*, ENASIDENIB MESYLATE*","Defines IDH-MUTANT glioma (NOT primary IDH-wildtype GBM). Vorasidenib (BBB-penetrant) FDA-approved 2024 for grade-2 IDH-mut glioma (INDIGO) -- a real recent win, but a different disease than your father's primary GBM if it was IDH-wildtype."
+MET,4.0,SUBSET,104,21,"CAPMATINIB*, TEPOTINIB*, CAPMATINIB HYDROCHLORIDE*, TEPOTINIB HYDROCHLORIDE*",MET amplification/exon14: crizotinib/capmatinib -- anecdotal/early responses in MET-altered glioma; CNS exposure variable.
+FGFR3,3.2,SUBSET,96,27,"PEMIGATINIB*, ERDAFITINIB*, INFIGRATINIB*, FUTIBATINIB*",FGFR3-TACC3 fusion is the actionable lesion; FGFR inhibitors show subset responses.
+BRAF,3.2,SUBSET,200,71,"DABRAFENIB*, VEMURAFENIB*, ENCORAFENIB*, TRAMETINIB DIMETHYL SULFOXIDE*",BRAF V600E (rare in GBM; epithelioid GBM/pediatric): dabrafenib+trametinib gives REAL responses -- FDA tumor-agnostic approval. A genuine win in the small V600E+ subset.
+CDKN2A,57.4,BIOMARKER,28,17,"PALBOCICLIB*, ABEMACICLIB*, RIBOCICLIB*, TRAMETINIB DIMETHYL SULFOXIDE*","Homozygous-deletion is the lesion (no direct drug); sensitizes to CDK4/6i and is a poor-prognosis marker. Target the pathway (CDK4/6), not the gene."
+CDKN2B,55.6,BIOMARKER,2,1,PALBOCICLIB*,Co-deleted with CDKN2A on 9p21; same CDK4/6-pathway rationale.
+RB1,12.4,BIOMARKER,36,21,"FOSTAMATINIB*, RIBOCICLIB*, TRILACICLIB*, PALBOCICLIB*","Loss -> resistance to CDK4/6i (RB1 must be intact for CDK4/6i to work). A negative selection marker, not a target."
+ATRX,9.3,BIOMARKER,12,5,"TEMOZOLOMIDE*, TALAZOPARIB*, OLAPARIB*, FLUOROURACIL*","Loss -> alternative-lengthening-of-telomeres phenotype; a marker, not yet a target."
+LZTR1,5.0,BIOMARKER,0,0,-,RAS-pathway regulator; loss stabilizes RAS. No direct drug.
+QKI,3.4,BIOMARKER,0,0,-,RNA-binding tumor suppressor; not druggable.
+EGFR,52.6,FAILED,192,60,"AFATINIB*, MOBOCERTINIB*, NECITUMUMAB*, CETUXIMAB*","Most-attacked, least-conquered GBM target. EGFR TKIs (erlotinib/gefitinib/afatinib) failed-poor BBB penetration + heterogeneity. Depatux-m ADC failed ph3 (INTELLANCE); rindopepimut EGFRvIII vaccine failed ph3 (ACT IV). EGFRvIII CAR-T early, antigen escape."
+PTEN,44.4,FAILED,151,64,"CAPIVASERTIB*, CAPMATINIB*, TEMSIROLIMUS*, EVEROLIMUS*",Loss activates PI3K/AKT/mTOR -- not directly druggable; downstream mTOR (everolimus) gave minimal GBM benefit.
+TP53,33.1,FAILED,452,152,"ZANUBRUTINIB*, BENDAMUSTINE*, TRIFLURIDINE*, OBINUTUZUMAB*","Loss-of-function; not directly druggable. (When intact + MDM2-amp, target MDM2.)"
+PDGFRA,15.6,FAILED,61,23,"OLARATUMAB*, BECAPLERMIN*, AVAPRITINIB*, RIPRETINIB*",Imatinib/dasatinib and multi-TKIs failed in unselected GBM; the PDGFRA-amplified/mutant subset has rarely been tested prospectively with a CNS-active agent.
+PIK3CA,11.9,FAILED,215,84,"INAVOLISIB*, ALPELISIB*, CAPIVASERTIB*, TEMSIROLIMUS*",PI3K-AKT-mTOR axis. Buparlisib failed (poor penetration); paxalisib (BBB-penetrant PI3K/mTOR) is in trials. Pathway redundancy limits single-agent benefit.
+PIK3R1,10.3,FAILED,39,6,"LENIOLISIB*, COPANLISIB*, ALPELISIB*, EVEROLIMUS*",Same PI3K axis; regulatory-subunit loss activates signaling. Same caveats as PIK3CA.
+MYCN,3.7,FAILED,21,13,"DINUTUXIMAB*, SONIDEGIB*, EFLORNITHINE*, NIRAPARIB*",MYC-family amplification; 'undruggable' TF -- indirect strategies (BET/Aurora) experimental.
+PTPN11,3.2,FAILED,7,2,"SUCCIMER*, AZACITIDINE*","SHP2 (RAS pathway); SHP2 inhibitors experimental, not GBM-validated."
+SOX2,3.2,FAILED,0,0,-,Stemness TF; not directly druggable.

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX / build artifacts
+*.aux
+*.toc
+*.synctex.gz
+
+# OS / editor
+.DS_Store
+.~lock.*
+
+# --- Raw third-party data: DO NOT COMMIT (not redistributable; see data/README.md) ---
+depmap/
+rnai/
+gdsc/
+scdata/
+*.gz
+*.tbi
+*.xlsx
+
+# --- FinnGen-derived data: DO NOT COMMIT (access-controlled) ---
+finngen_*.csv
+finngen_*.tsv
+mutyh_phenome_wide.csv
+glioma_germline_candidates.csv
+
+# --- API response caches ---
+*_cache.json
+*_cache.tsv

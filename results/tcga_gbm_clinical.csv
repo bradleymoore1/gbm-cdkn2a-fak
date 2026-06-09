@@ -1,0 +1,13 @@
+group,n_alt,n_wt,median_os_alt,median_os_wt,logrank_p,direction
+IDH1 mutation (anchor),23,352,33.7,13.6,8e-05,longer OS
+EGFR amplification,178,197,14.9,13.1,0.40535,longer OS
+EGFR mutation,89,286,14.7,14.4,0.92044,longer OS
+CDKN2A/B homozygous del,210,165,13.9,15.0,0.16104,shorter OS
+TP53 mutation,120,255,16.4,13.8,0.00042,longer OS
+PTEN loss (mut/homdel),169,206,14.9,14.4,0.78443,longer OS
+NF1 loss (mut/homdel),52,323,11.2,14.7,0.13587,shorter OS
+RB1 loss (mut/homdel),47,328,15.6,14.0,0.59615,longer OS
+PDGFRA amplification,55,320,12.6,14.5,0.45366,shorter OS
+MDM2/4 amplification,69,306,12.8,14.9,0.30074,shorter OS
+CDK4/6 axis (amp or CDKN2A/B del),263,112,14.0,15.4,0.12694,shorter OS
+PI3K axis (PIK3CA/R1 mut or PTEN loss),219,156,13.8,14.7,0.66412,shorter OS
