@@ -119,11 +119,15 @@ The MUTYH germline observation is the narrowest finding but is biologically cohe
 
 All primary datasets are public: DepMap CRISPR and RNAi/DEMETER2 (depmap.org), PRISM (depmap.org/repurposing), GDSC release 8.5 (cancerrxgene.org), CPTAC-GBM (cptac Python package / proteomic.datacommons.cancer.gov), TCGA-GBM and MSK-IMPACT (cBioPortal), GWAS Catalog (ebi.ac.uk/gwas), FinnGen R13 (finngen.fi), gnomAD v4 (gnomad.broadinstitute.org), ClinVar. Analysis scripts and derived summary tables are available at https://github.com/bradleymoore1/gbm-cdkn2a-fak (FinnGen individual-level data excepted, per FinnGen's data-access terms).
 
-## 7. Acknowledgments
+## 7. Use of AI
+
+The author conceived and directed the study, independently verified all analyses and numerical results against the primary data, and takes full responsibility for the content. A large language model (Anthropic's Claude) assisted with analysis-code development, data processing, and manuscript drafting under the author's direction. No AI system meets authorship criteria or is listed as an author.
+
+## 8. Acknowledgments
 
 This work was conducted in memory of **James E. Moore** (July 4, 1961 – August 14, 2025), who was diagnosed with IDH-wildtype, MGMT-unmethylated, CDKN2A/B-homozygously-deleted glioblastoma and died of this disease. The analysis was motivated by his illness.
 
-## 8. References
+## 9. References
 
 1. Louis DN, et al. The 2021 WHO Classification of Tumors of the Central Nervous System: a summary. *Neuro Oncol.* 2021;23:1231–1251. PMID 34185076; doi:10.1093/neuonc/noab106.
 2. Brennan CW, et al. The somatic genomic landscape of glioblastoma. *Cell.* 2013;155:462–477. PMID 24120142; doi:10.1016/j.cell.2013.09.034.

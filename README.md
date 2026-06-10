@@ -3,7 +3,7 @@
 Analysis code and derived results for the preprint:
 
 > **Computational triage of therapeutic and germline vulnerabilities in IDH-wildtype glioblastoma: a focal-adhesion dependency in CDKN2A/B-deleted tumors**
-> Brad Moore. *bioRxiv* (2026). DOI: _to be added on posting_
+> Brad Moore. Preprint (2026). DOI: _to be added on posting_
 
 This is a hypothesis-generating, computational re-analysis of publicly available functional-genomic, transcriptomic, pharmacologic, clinical, and population-genetic datasets. The repository holds the analysis scripts and the **aggregate, derived** result tables that underlie the figures and reported numbers. Raw third-party data and access-controlled data are **not** redistributed here (see *Data availability* below).
 
